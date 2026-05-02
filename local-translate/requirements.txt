@@ -1,0 +1,21 @@
+# Local NLLB-200 Translation Service
+# FastAPI + Hugging Face Transformers
+
+# Core dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# Hugging Face Transformers for NLLB-200
+transformers>=4.35.0
+sentencepiece>=0.1.99  # Required for NLLB tokenizer
+
+# PyTorch - Install separately for CUDA support:
+# pip install torch --index-url https://download.pytorch.org/whl/cu126
+# Or for CPU only:
+# pip install torch
+torch>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+pytest>=8.2.0

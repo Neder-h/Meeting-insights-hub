@@ -1,0 +1,16 @@
+# Core dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+python-multipart>=0.0.6  # Required for file uploads
+google-genai>=1.0.0  # Official Google Gemini SDK
+
+# Whisper and ML
+faster-whisper>=1.0.1
+torch>=2.1.0
+numpy>=1.26.0
+huggingface_hub>=0.20.0  # For private model repo authentication
+
+# Development
+python-dotenv>=1.0.0
+pytest>=8.2.0
